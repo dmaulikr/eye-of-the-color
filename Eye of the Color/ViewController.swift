@@ -8,16 +8,31 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+
+class ViewController: UIViewController
+{
+    
+    @IBOutlet weak var nameField: UITextField!
+    
+
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+   
+    @IBAction func button1(sender: UIButton)
+    {
+        if(nameField.text?.characters.count != 0)
+        {
+            performSegueWithIdentifier("firstToSecond", sender: self)
+        }
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let dvc = segue.destinationViewController as! secondViewController
+        dvc.name = nameField.text!
     }
 
 

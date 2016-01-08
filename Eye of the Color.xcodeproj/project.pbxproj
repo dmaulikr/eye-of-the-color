@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F21E1B81C1897160092C2FA /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21E1B71C1897160092C2FA /* fifthViewController.swift */; };
 		3FCCB1791C10ACF800451120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCB1781C10ACF800451120 /* AppDelegate.swift */; };
 		3FCCB17B1C10ACF800451120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCB17A1C10ACF800451120 /* ViewController.swift */; };
 		3FCCB17E1C10ACF800451120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCCB17C1C10ACF800451120 /* Main.storyboard */; };
 		3FCCB1801C10ACF800451120 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCCB17F1C10ACF800451120 /* Images.xcassets */; };
 		3FCCB1831C10ACF800451120 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCCB1811C10ACF800451120 /* LaunchScreen.xib */; };
 		3FCCB18F1C10ACF800451120 /* Eye_of_the_ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCB18E1C10ACF800451120 /* Eye_of_the_ColorTests.swift */; };
+		3FCCB1991C10AFD800451120 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCB1981C10AFD800451120 /* secondViewController.swift */; };
+		3FCCB19B1C10B04D00451120 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCB19A1C10B04D00451120 /* thirdViewController.swift */; };
+		3FCCB19D1C10B08C00451120 /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCB19C1C10B08C00451120 /* fourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F21E1B71C1897160092C2FA /* fifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
 		3FCCB1731C10ACF800451120 /* Eye of the Color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eye of the Color.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCCB1771C10ACF800451120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FCCB1781C10ACF800451120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		3FCCB1881C10ACF800451120 /* Eye of the ColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eye of the ColorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCCB18D1C10ACF800451120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FCCB18E1C10ACF800451120 /* Eye_of_the_ColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eye_of_the_ColorTests.swift; sourceTree = "<group>"; };
+		3FCCB1981C10AFD800451120 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		3FCCB19A1C10B04D00451120 /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		3FCCB19C1C10B08C00451120 /* fourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 				3FCCB1781C10ACF800451120 /* AppDelegate.swift */,
 				3FCCB17A1C10ACF800451120 /* ViewController.swift */,
 				3FCCB17C1C10ACF800451120 /* Main.storyboard */,
+				3F21E1B71C1897160092C2FA /* fifthViewController.swift */,
+				3FCCB19C1C10B08C00451120 /* fourthViewController.swift */,
+				3FCCB19A1C10B04D00451120 /* thirdViewController.swift */,
+				3FCCB1981C10AFD800451120 /* secondViewController.swift */,
 				3FCCB17F1C10ACF800451120 /* Images.xcassets */,
 				3FCCB1811C10ACF800451120 /* LaunchScreen.xib */,
 				3FCCB1761C10ACF800451120 /* Supporting Files */,
@@ -156,6 +168,7 @@
 		3FCCB16B1C10ACF800451120 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = kportillo;
 				TargetAttributes = {
@@ -212,7 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCCB19D1C10B08C00451120 /* fourthViewController.swift in Sources */,
 				3FCCB17B1C10ACF800451120 /* ViewController.swift in Sources */,
+				3F21E1B81C1897160092C2FA /* fifthViewController.swift in Sources */,
+				3FCCB1991C10AFD800451120 /* secondViewController.swift in Sources */,
+				3FCCB19B1C10B04D00451120 /* thirdViewController.swift in Sources */,
 				3FCCB1791C10ACF800451120 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +428,7 @@
 				3FCCB1941C10ACF800451120 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FCCB1951C10ACF800451120 /* Build configuration list for PBXNativeTarget "Eye of the ColorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +437,7 @@
 				3FCCB1971C10ACF800451120 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
